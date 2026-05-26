@@ -743,7 +743,7 @@ export const dictionaries = {
     meta: {
       title: "L&J Wedding Planner | Luxury Wedding Planning in Germany & Europe",
       description:
-        "Elegant wedding planning for castle, destination and bilingual weddings across Germany and Europe."
+        "Elegant wedding planning for castle, destination and multilingual weddings across Germany and Europe."
     },
     nav: {
       brand: "L&J Wedding Planner",
@@ -768,7 +768,7 @@ export const dictionaries = {
         "For couples with a refined sense of beauty, we create elegant, calm and deeply personal wedding experiences across Europe.",
       primaryCta: "Book a Consultation",
       secondaryCta: "Start Your Wedding Journey",
-      note: "Castle, destination and bilingual weddings"
+      note: "Castle weddings, destination celebrations and multilingual planning"
     },
     about: {
       eyebrow: "About L&J",
