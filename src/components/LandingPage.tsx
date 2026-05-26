@@ -146,17 +146,26 @@ export function LandingPage({ dictionary, locale }: LandingPageProps) {
         <section id="process" className="scroll-mt-24 bg-ivory py-20 sm:py-28">
           <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
             <SectionHeader eyebrow={dictionary.process.eyebrow} title={dictionary.process.title} />
-            <div className="mt-14 grid gap-5 lg:grid-cols-5">
+            <div className="relative mt-14">
+              <div
+                className="absolute bottom-3 left-[1.45rem] top-3 w-px bg-champagne/75 lg:bottom-auto lg:left-0 lg:right-0 lg:top-6 lg:h-px lg:w-auto"
+                aria-hidden="true"
+              />
+              <div className="relative grid gap-8 lg:grid-cols-5 lg:gap-6">
               {dictionary.process.steps.map((step, index) => (
-                <article key={step.title} className="relative rounded-lg border border-champagne/55 bg-warm-white p-6">
-                  <div className="mb-8 flex h-11 w-11 items-center justify-center rounded-full border border-soft-gold/45 text-sm text-soft-gold">
+                <article
+                  key={step.title}
+                  className="relative border-b border-champagne/55 pb-8 pl-16 last:border-b-0 lg:border-b-0 lg:border-r lg:pb-0 lg:pl-0 lg:pr-6 lg:pt-16 lg:last:border-r-0"
+                >
+                  <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-soft-gold/55 bg-ivory text-sm text-soft-gold shadow-[0_0_0_10px_rgba(247,244,238,0.92)] lg:top-0">
                     {String(index + 1).padStart(2, "0")}
                   </div>
-                  <h3 className="font-display text-2xl leading-tight text-charcoal">{step.title}</h3>
+                  <h3 className="font-display text-3xl leading-tight text-charcoal lg:text-[1.7rem]">{step.title}</h3>
                   <p className="mt-1 text-sm text-taupe">{step.label}</p>
-                  <p className="mt-5 text-sm leading-7 text-charcoal-soft/78">{step.description}</p>
+                  <p className="mt-5 text-sm leading-7 text-charcoal-soft/78 lg:max-w-[15rem]">{step.description}</p>
                 </article>
               ))}
+              </div>
             </div>
           </div>
         </section>
