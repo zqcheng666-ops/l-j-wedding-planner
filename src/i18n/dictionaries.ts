@@ -15,10 +15,9 @@ export const dictionaries = {
       consultation: "Beratung",
       items: [
         { id: "about", label: "Über uns" },
-        { id: "services", label: "Leistungen" },
-        { id: "experiences", label: "Erlebnisse" },
-        { id: "process", label: "Ablauf" },
-        { id: "moments", label: "Momente" },
+        { id: "inspiration", label: "Inspiration" },
+        { id: "services", label: "Arbeitsweise" },
+        { id: "moments", label: "Weddings" },
         { id: "contact", label: "Kontakt" }
       ]
     },
@@ -29,30 +28,34 @@ export const dictionaries = {
       subtitle:
         "Für Paare mit Sinn für Ästhetik gestalten wir elegante, gelassene und unverwechselbare Hochzeitserlebnisse in Europa.",
       primaryCta: "Beratung buchen",
-      secondaryCta: "Hochzeitsreise beginnen",
-      note: "Schloss-, Reise- und mehrsprachige Hochzeiten"
+      secondaryCta: "Arbeitsweise entdecken",
+      note: "Hochzeitsplanung in Deutschland & Europa\nSchloss Hochzeit / Reisehochzeit / Deutsch-Chinesisch-Englische Koordination"
     },
     about: {
       eyebrow: "Über L&J",
-      title: "Ruhige Präzision, kulturelles Feingefühl und ein Blick für das Schöne.",
+      title: "Ein deutsches Planungsstudio für Paare, die Europa bewusst wählen.",
       paragraphs: [
-        "L&J Wedding Planner ist ein in Deutschland ansässiges Hochzeitsplanungsteam für anspruchsvolle Paare, die eine europäische Hochzeit mit persönlicher Tiefe, Stil und Klarheit wünschen.",
-        "Wir verbinden deutsch-chinesisches Kulturverständnis mit strukturierter Planung, sicherer Kommunikation mit Locations und Dienstleistern, hochwertigem Design und verlässlicher Umsetzung vor Ort.",
-        "Gegründet wurde L&J Wedding Planner von Eva Li und Lukas Cheng. Wir leben und arbeiten seit vielen Jahren in Deutschland und kennen die kulturellen Unterschiede, die Kommunikation mit europäischen Hochzeitslocations und die Details einer hochwertigen Umsetzung. Unser Ziel ist, dass Paare im Ausland nicht nur ein schönes Konzept erhalten, sondern Klarheit, Sicherheit und das Gefühl, wirklich verstanden zu werden."
+        "L&J Wedding Planner ist ein hochwertiges Hochzeitsplanungsstudio in Deutschland, spezialisiert auf Destination Weddings, Schloss Hochzeiten und interkulturelle Feiern für chinesischsprachige und internationale Paare.",
+        "Gegründet von Eva Li und Lukas Cheng, verbinden wir deutsche lokale Ressourcen, chinesische Kommunikation, deutsch-chinesisch-englische Koordination sowie europäische Location- und Dienstleistererfahrung mit einem klaren Sinn für Ästhetik und Umsetzung."
       ],
       highlights: [
-        "Deutsch-chinesische Kulturkompetenz",
-        "Ort- und Dienstleisterkommunikation",
-        "Budget, Ablauf und Gästemanagement",
-        "Designkonzept und ästhetische Regie"
+        "Gründergeführt von Eva Li & Lukas Cheng",
+        "Deutsch, Chinesisch und Englisch",
+        "Europäische Locations & Dienstleister",
+        "Ästhetik und Umsetzung aus einer Hand"
       ],
-      asideTitle: "Für Paare, die Europa bewusst wählen.",
+      asideTitle: "Aus dem Wunsch nach mehr Ruhe entstanden.",
       asideText:
-        "Ob Schloss, Weingut, Seevilla oder intime Hochzeitszeremonie: Wir übersetzen Ihre Geschichte in ein Fest, das sich leicht anfühlt und lange nachklingt."
+        "Wir möchten Paaren, die aus der Ferne planen, nicht nur schöne Ideen geben, sondern Orientierung, klare Kommunikation und das Gefühl, verstanden zu werden."
     },
     services: {
-      eyebrow: "Leistungen",
-      title: "Planung, Gestaltung und Umsetzung mit internationalem Anspruch.",
+      eyebrow: "Unsere Arbeitsweise",
+      title: "Von der ersten Idee bis zum Hochzeitstag begleiten wir mit Struktur, Ästhetik und Ruhe.",
+      intro:
+        "Unsere Arbeit bündelt Planung, Erlebnisgestaltung und Ablaufsteuerung in einem klaren Prozess, damit Sie verstehen, wie aus einer Idee eine umsetzbare europäische Hochzeit wird.",
+      offeringsLabel: "A. Was wir anbieten",
+      experiencesLabel: "B. Welche Erlebnisse wir gestalten",
+      processLabel: "C. Wie wir vorgehen",
       items: [
         {
           title: "Komplette Hochzeitsplanung",
@@ -76,7 +79,7 @@ export const dictionaries = {
     },
     experiences: {
       eyebrow: "Besondere Erlebnisse",
-      title: "Europäische Orte, fein kuratierte Details und ein Fest, das zu Ihnen passt.",
+      title: "Erlebnisse, die wir für Ihre Hochzeit möglich machen.",
       items: [
         {
           title: "Deutsche Schloss Hochzeit",
@@ -84,9 +87,9 @@ export const dictionaries = {
             "Eine romantische Kulisse mit historischer Architektur, feiner Tischkultur und präzisem Ablauf."
         },
         {
-          title: "Europäische Gutshof Hochzeit",
+          title: "Kirchliche Trauung",
           description:
-            "Private Landsitze, Weingüter und elegante Hideaways für ein intimes, stilvolles Wochenende."
+            "Feierliche Zeremonien mit ruhiger Dramaturgie, Familiengefühl und sensibler Abstimmung vor Ort."
         },
         {
           title: "Kleine hochwertige Reisehochzeit",
@@ -94,12 +97,27 @@ export const dictionaries = {
             "Bewusst reduzierte Gästelisten, dafür mehr Zeit, Atmosphäre und persönliche Erlebnisse."
         },
         {
-          title: "Interkulturelle Hochzeit",
+          title: "Europäisches Dinner",
+          description:
+            "Lange Tafeln, Kerzenlicht, Floristik, Menüfolge und ein Gästefluss, der sich natürlich anfühlt."
+        },
+        {
+          title: "Champagnerempfang",
+          description:
+            "Leichte, elegante Empfangsmomente zwischen Zeremonie, Fotos und Dinner."
+        },
+        {
+          title: "Gästeempfang",
+          description:
+            "Ankunft, Transfers, Willkommensmomente und Orientierung für internationale Gäste."
+        },
+        {
+          title: "Interkulturelles Ritualdesign",
           description:
             "Chinesische, deutsche und internationale Elemente werden sensibel verbunden, ohne überladen zu wirken."
         },
         {
-          title: "Visuelle Hochzeitsgeschichte",
+          title: "Reise- & Bildgeschichte",
           description:
             "Foto, Video, Papeterie und Raumgestaltung folgen einer klaren visuellen Erzählung."
         }
@@ -142,28 +160,22 @@ export const dictionaries = {
       ]
     },
     portfolio: {
-      eyebrow: "Portfolio / Momente",
-      title: "Europäische Hochzeitsmomente mit ruhiger Eleganz.",
+      eyebrow: "Stilinspiration",
+      title: "Die Atmosphäre, die wir lieben und gestalten.",
       intro:
-        "Schlosszeremonien, elegante Dinners und feine Details zeigen die warme, internationale Ästhetik von L&J.",
+        "Dieser Bereich zeigt unsere bevorzugte ästhetische Richtung: zurückhaltend, elegant, natürlich und geprägt von europäischen Orten.",
       items: [
         {
           src: "/images/castle-ceremony.jpg",
           alt: "Schlosszeremonie mit goldenen Details",
-          title: "Schlosszeremonie",
+          title: "Schloss Hochzeit",
           caption: "Eine klassische europäische Kulisse, modern und warm inszeniert."
         },
         {
-          src: "/images/manor-dinner.jpg",
-          alt: "Elegantes Dinner in einem europäischen Gutshaus",
-          title: "Gutshof Dinner",
-          caption: "Gehobene Tischkultur, Kerzenlicht und ein Ablauf, der sich mühelos anfühlt."
-        },
-        {
-          src: "/images/bridal-details.jpg",
-          alt: "Brautdetails mit Papeterie und Stoffstrukturen",
-          title: "Brautdetails",
-          caption: "Papeterie, Stoffe und kleine Gesten erzählen die Geschichte des Tages."
+          src: "/images/hero-wedding.jpg",
+          alt: "Feierliche europäische Zeremonie mit warmem Licht",
+          title: "Kirchliche Trauung",
+          caption: "Ruhige Zeremonien mit Würde, Nähe und einem klaren Gefühl für den Ort."
         },
         {
           src: "/images/lakeside-vows.jpg",
@@ -172,16 +184,66 @@ export const dictionaries = {
           caption: "Intime Reisehochzeiten mit viel Raum für Nähe."
         },
         {
+          src: "/images/manor-dinner.jpg",
+          alt: "Elegantes Dinner in einem europäischen Gutshaus",
+          title: "Europäische lange Tafel",
+          caption: "Gehobene Tischkultur, Kerzenlicht und ein Ablauf, der sich mühelos anfühlt."
+        },
+        {
           src: "/images/table-design.jpg",
           alt: "Champagnerfarbene Tischgestaltung mit Blumen",
-          title: "Tischgestaltung",
+          title: "Florale Details",
           caption: "Reduzierte Farben, feine Materialien und eine ruhige Dramaturgie."
         },
         {
-          src: "/images/visual-story.jpg",
-          alt: "Hochzeitsfilm und visuelle Erzählung",
-          title: "Visuelle Geschichte",
-          caption: "Foto und Film werden früh in die ästhetische Planung eingebunden."
+          src: "/images/bridal-details.jpg",
+          alt: "Brautdetails mit Papeterie und Stoffstrukturen",
+          title: "Papeterie & Geschenke",
+          caption: "Papeterie, Stoffe und kleine Gesten erzählen die Geschichte des Tages."
+        }
+      ]
+    },
+    selectedWeddings: {
+      eyebrow: "Selected Weddings",
+      title: "Ausgewählte Hochzeitsformate mit klarer Umsetzung.",
+      intro:
+        "Jedes Format zeigt Ort, Gästezahl, Leistungsumfang, Hochzeitstyp und Umsetzungsfokus, damit sichtbar wird, wie Planung vor Ort wirklich greifbar wird.",
+      labels: {
+        guests: "Gäste",
+        service: "Leistung",
+        type: "Hochzeitstyp",
+        highlight: "Umsetzungsfokus"
+      },
+      items: [
+        {
+          src: "/images/castle-ceremony.jpg",
+          alt: "Schloss Hochzeit in Deutschland",
+          title: "Deutsche Schloss Hochzeit",
+          location: "Deutschland",
+          guests: "ca. 60 Personen",
+          service: "Planung / Location-Kommunikation / Dienstleisterkoordination / Hochzeitstag",
+          type: "Schloss Hochzeit",
+          highlight: "Zeremonie im Schloss, Dinner-Flow, Gästeempfang und deutsch-chinesisch-englische Kommunikation."
+        },
+        {
+          src: "/images/lakeside-vows.jpg",
+          alt: "Kleine europäische Reisehochzeit am See",
+          title: "Lakeside Destination Wedding",
+          location: "Europa",
+          guests: "ca. 30 Personen",
+          service: "Destination Wedding Planung / Reiseablauf / visuelle Regie",
+          type: "Kleine hochwertige Reisehochzeit",
+          highlight: "Intime Zeremonie, Gästereise, Fotomomente und ruhige Tagesdramaturgie."
+        },
+        {
+          src: "/images/manor-dinner.jpg",
+          alt: "Europäisches Hochzeitsdinner in einem Gutshaus",
+          title: "European Manor Dinner",
+          location: "Deutschland oder Europa",
+          guests: "ca. 80 Personen",
+          service: "Dinner-Konzept / Dienstleisterabstimmung / Ablaufplanung",
+          type: "Europäisches Dinner & Empfang",
+          highlight: "Lange Tafel, Floristik, Kerzenlicht, Empfangssituation und präzise Serviceabläufe."
         }
       ]
     },
@@ -367,9 +429,8 @@ export const dictionaries = {
       consultation: "预约咨询",
       items: [
         { id: "about", label: "品牌介绍" },
-        { id: "services", label: "服务内容" },
-        { id: "experiences", label: "特色体验" },
-        { id: "process", label: "服务流程" },
+        { id: "inspiration", label: "风格灵感" },
+        { id: "services", label: "服务方式" },
         { id: "moments", label: "案例展示" },
         { id: "contact", label: "联系" }
       ]
@@ -381,30 +442,34 @@ export const dictionaries = {
       subtitle:
         "为懂得生活美学的新人，打造优雅、从容、独一无二的欧洲婚礼体验。",
       primaryCta: "预约咨询",
-      secondaryCta: "开启你们的婚礼旅程",
-      note: "城堡婚礼、目的地婚礼与中德英多语言服务"
+      secondaryCta: "了解服务方式",
+      note: "德国与欧洲高端婚礼策划\n城堡婚礼 / 目的地婚礼 / 中德英多语言统筹"
     },
     about: {
       eyebrow: "品牌介绍",
-      title: "以从容的节奏、精确的执行和跨文化理解，完成一场真正属于你的欧洲婚礼。",
+      title: "为中文及国际新人，统筹德国与欧洲婚礼。",
       paragraphs: [
-        "L&J Wedding Planner 是位于德国的婚礼策划团队，服务希望在德国及欧洲举办高端婚礼的新人。",
-        "我们理解中德文化差异，也熟悉欧洲场地与供应商沟通方式。从预算、流程、设计审美到婚礼日落地执行，我们帮助新人把复杂的筹备变得清晰、优雅、有掌控感。",
-        "L&J Wedding Planner 由 Eva Li 与 Lukas Cheng 共同创立。我们长期生活和工作在德国，熟悉中德文化差异、欧洲婚礼场地沟通方式以及高端婚礼的执行细节。我们希望帮助新人在异国筹备婚礼时，不只是得到漂亮的方案，也获得清晰、安心和被理解的体验。"
+        "L&J Wedding Planner 是一家位于德国的高端婚礼策划工作室，专注于为中文及国际新人提供德国与欧洲目的地婚礼、城堡婚礼和跨文化婚礼统筹服务。",
+        "工作室由 Eva Li 与 Lukas Cheng 共同创立。我们长期生活和工作在德国，熟悉德国本地资源、欧洲场地与供应商对接方式，也理解中文新人在异国筹备婚礼时最需要的清晰沟通、审美判断与落地执行。"
       ],
       highlights: [
-        "中德跨文化理解",
-        "场地与供应商沟通",
-        "预算、流程与宾客统筹",
-        "婚礼设计与视觉审美"
+        "Eva Li 与 Lukas Cheng 创始人亲自参与",
+        "中文沟通优势，中德英多语言协调",
+        "德国本地资源与欧洲场地对接",
+        "审美设计与现场执行双重能力"
       ],
-      asideTitle: "为选择欧洲的新人而生。",
+      asideTitle: "创立动机",
       asideText:
-        "无论是城堡、酒庄、湖畔庄园，还是小型高端目的地婚礼，我们都将你的故事转化为自然、精致、值得回味的庆典。"
+        "我们希望帮助新人在异国筹备婚礼时，不只是得到漂亮的方案，也获得清晰、安心和被理解的体验。"
     },
     services: {
-      eyebrow: "服务内容",
-      title: "从全案策划到婚礼日执行，以国际化标准照顾每个细节。",
+      eyebrow: "我们的服务方式",
+      title: "从想法到婚礼日，我们如何陪你完成。",
+      intro:
+        "我们把服务内容、婚礼体验与推进流程整合在一个清晰的服务逻辑里，让你知道我们到底如何帮助一场欧洲婚礼从概念走向落地。",
+      offeringsLabel: "A. 我们提供什么",
+      experiencesLabel: "B. 我们能创造什么体验",
+      processLabel: "C. 我们如何推进流程",
       items: [
         {
           title: "全案婚礼策划",
@@ -428,7 +493,7 @@ export const dictionaries = {
     },
     experiences: {
       eyebrow: "特色体验",
-      title: "欧洲场地、精致细节与属于你们的庆祝方式。",
+      title: "我们可以为婚礼创造的体验。",
       items: [
         {
           title: "德国城堡婚礼",
@@ -436,9 +501,9 @@ export const dictionaries = {
             "在历史建筑与现代审美之间，打造优雅而有仪式感的婚礼体验。"
         },
         {
-          title: "欧洲庄园婚礼",
+          title: "教堂婚礼",
           description:
-            "精选庄园、酒庄和私密度假场地，适合完整的婚礼周末。"
+            "在庄重的仪式感与亲密的家庭氛围之间，协调场地、流程与宾客感受。"
         },
         {
           title: "小型高端目的地婚礼",
@@ -446,12 +511,27 @@ export const dictionaries = {
             "更少的宾客、更高的体验密度，让每个片刻都从容而亲密。"
         },
         {
-          title: "中德跨文化婚礼",
+          title: "欧式长桌晚宴",
+          description:
+            "将餐桌设计、灯光、花艺、菜单节奏与宾客动线整合成完整晚宴体验。"
+        },
+        {
+          title: "香槟酒会",
+          description:
+            "为仪式后、晚宴前或欢迎环节设计轻松而精致的交流时刻。"
+        },
+        {
+          title: "宾客接待",
+          description:
+            "统筹抵达、接驳、欢迎信息与现场指引，让异地宾客更安心。"
+        },
+        {
+          title: "跨文化仪式设计",
           description:
             "将中国、德国与国际婚礼元素自然融合，避免堆砌，保留温度。"
         },
         {
-          title: "婚礼影像与视觉叙事",
+          title: "旅拍与影像视觉叙事",
           description:
             "将摄影、摄像、纸品与空间设计纳入统一的视觉故事。"
         }
@@ -494,28 +574,22 @@ export const dictionaries = {
       ]
     },
     portfolio: {
-      eyebrow: "案例 / 瞬间",
-      title: "欧洲婚礼灵感与真实瞬间。",
+      eyebrow: "风格灵感",
+      title: "我们偏好的婚礼美学方向与设计氛围。",
       intro:
-        "从城堡仪式、庄园晚宴到目的地婚礼细节，呈现 L&J 对空间、光线与情绪的审美把控。",
+        "呈现我们喜欢并擅长打造的婚礼氛围：克制、优雅、自然、有欧洲场地感。",
       items: [
         {
           src: "/images/castle-ceremony.jpg",
           alt: "带有金色细节的城堡婚礼仪式",
-          title: "城堡仪式",
+          title: "城堡婚礼",
           caption: "经典欧洲场景，以现代、温暖的方式呈现。"
         },
         {
-          src: "/images/manor-dinner.jpg",
-          alt: "欧洲庄园中的优雅晚宴",
-          title: "庄园晚宴",
-          caption: "烛光、餐桌与从容流动的晚宴节奏。"
-        },
-        {
-          src: "/images/bridal-details.jpg",
-          alt: "婚礼纸品与面料细节",
-          title: "新娘细节",
-          caption: "纸品、材质与细节共同讲述婚礼故事。"
+          src: "/images/hero-wedding.jpg",
+          alt: "温暖光线中的欧洲仪式空间",
+          title: "教堂婚礼",
+          caption: "庄重但不沉重的仪式感，保留亲密与温度。"
         },
         {
           src: "/images/lakeside-vows.jpg",
@@ -524,16 +598,66 @@ export const dictionaries = {
           caption: "亲密的小型目的地婚礼，留出更多真实情绪。"
         },
         {
+          src: "/images/manor-dinner.jpg",
+          alt: "欧洲庄园中的优雅晚宴",
+          title: "欧式长桌晚宴",
+          caption: "烛光、餐桌与从容流动的晚宴节奏。"
+        },
+        {
           src: "/images/table-design.jpg",
           alt: "香槟色花艺餐桌设计",
-          title: "餐桌设计",
+          title: "花艺设计细节",
           caption: "克制的色彩、细腻的材质与优雅动线。"
         },
         {
-          src: "/images/visual-story.jpg",
-          alt: "婚礼影像与视觉叙事",
-          title: "视觉叙事",
-          caption: "在策划早期就纳入影像叙事，让画面更完整。"
+          src: "/images/bridal-details.jpg",
+          alt: "婚礼纸品、礼物与面料细节",
+          title: "纸品与礼物细节",
+          caption: "纸品、材质与细节共同讲述婚礼故事。"
+        }
+      ]
+    },
+    selectedWeddings: {
+      eyebrow: "真实案例 / Selected Weddings",
+      title: "比漂亮图片更重要的是完整执行。",
+      intro:
+        "案例板块以更信息化的方式呈现地点、人数、服务范围、婚礼类型与执行亮点，让客户看到一场婚礼背后的真实统筹能力。",
+      labels: {
+        guests: "人数",
+        service: "服务内容",
+        type: "婚礼类型",
+        highlight: "执行亮点"
+      },
+      items: [
+        {
+          src: "/images/castle-ceremony.jpg",
+          alt: "德国城堡婚礼案例",
+          title: "德国城堡婚礼",
+          location: "德国城堡场地",
+          guests: "约 60 人",
+          service: "婚礼策划 / 场地沟通 / 供应商协调 / 婚礼日执行",
+          type: "城堡婚礼",
+          highlight: "城堡仪式、晚宴动线、宾客接待、中德英多语言沟通。"
+        },
+        {
+          src: "/images/lakeside-vows.jpg",
+          alt: "欧洲湖畔目的地婚礼案例",
+          title: "欧洲湖畔目的地婚礼",
+          location: "欧洲湖区场地",
+          guests: "约 30 人",
+          service: "目的地婚礼策划 / 旅行动线 / 视觉统筹",
+          type: "小型高端目的地婚礼",
+          highlight: "亲密仪式、宾客旅行体验、旅拍时间线与自然情绪设计。"
+        },
+        {
+          src: "/images/manor-dinner.jpg",
+          alt: "欧式庄园晚宴案例",
+          title: "欧式庄园晚宴",
+          location: "德国或欧洲庄园场地",
+          guests: "约 80 人",
+          service: "晚宴设计 / 供应商协调 / 婚礼日流程统筹",
+          type: "欧式晚宴与香槟酒会",
+          highlight: "长桌布置、花艺烛光、迎宾酒会、餐饮节奏与现场执行。"
         }
       ]
     },
@@ -719,10 +843,9 @@ export const dictionaries = {
       consultation: "Consultation",
       items: [
         { id: "about", label: "About" },
-        { id: "services", label: "Services" },
-        { id: "experiences", label: "Experiences" },
-        { id: "process", label: "Process" },
-        { id: "moments", label: "Moments" },
+        { id: "inspiration", label: "Inspiration" },
+        { id: "services", label: "How We Work" },
+        { id: "moments", label: "Weddings" },
         { id: "contact", label: "Contact" }
       ]
     },
@@ -733,30 +856,34 @@ export const dictionaries = {
       subtitle:
         "For couples with a refined sense of beauty, we create elegant, calm and deeply personal wedding experiences across Europe.",
       primaryCta: "Book a Consultation",
-      secondaryCta: "Start Your Wedding Journey",
-      note: "Castle weddings, destination celebrations and multilingual planning"
+      secondaryCta: "Explore How We Work",
+      note: "Luxury wedding planning in Germany & Europe\nCastle weddings / destination weddings / German-Chinese-English coordination"
     },
     about: {
       eyebrow: "About L&J",
-      title: "Calm precision, cultural fluency and an eye for enduring beauty.",
+      title: "A Germany-based planning studio for couples choosing Europe with intention.",
       paragraphs: [
-        "L&J Wedding Planner is a Germany-based planning studio for discerning couples who want a European wedding with personal meaning, style and clarity.",
-        "We combine Chinese-German cultural understanding with structured planning, confident venue and vendor communication, refined design direction and reliable on-site execution.",
-        "L&J Wedding Planner was founded by Eva Li and Lukas Cheng. Having lived and worked in Germany for many years, we understand Chinese-German cultural differences, the communication style of European wedding venues and the execution details behind high-end celebrations. We want couples planning from abroad to receive more than a beautiful concept: clear guidance, a sense of calm and the feeling of being truly understood."
+        "L&J Wedding Planner is a high-end wedding planning studio based in Germany, specializing in destination weddings, castle weddings and cross-cultural celebrations for Chinese-speaking and international couples.",
+        "Founded by Eva Li and Lukas Cheng, we combine German local resources, Chinese communication, German-Chinese-English coordination and European venue and vendor experience with both aesthetic direction and precise execution."
       ],
       highlights: [
-        "Chinese-German cultural fluency",
-        "Venue and vendor communication",
-        "Budget, timeline and guest coordination",
-        "Design concept and aesthetic direction"
+        "Founder-led by Eva Li & Lukas Cheng",
+        "Chinese, German and English coordination",
+        "German resources and European venue access",
+        "Aesthetic direction and execution ability"
       ],
-      asideTitle: "For couples who choose Europe with intention.",
+      asideTitle: "Founded to make planning feel calmer.",
       asideText:
-        "From castles and vineyards to lakeside villas and intimate fine-art elopements, we translate your story into a celebration that feels effortless and memorable."
+        "We want couples planning from abroad to receive more than a beautiful concept: clear guidance, reassuring communication and the feeling of being truly understood."
     },
     services: {
-      eyebrow: "Services",
-      title: "Planning, design and execution with an international standard.",
+      eyebrow: "How We Work",
+      title: "From first idea to wedding day, this is how we help you bring it to life.",
+      intro:
+        "We bring service scope, wedding experience and planning process into one clear structure, so you can understand how a European wedding becomes both beautiful and executable.",
+      offeringsLabel: "A. What we provide",
+      experiencesLabel: "B. What we can create",
+      processLabel: "C. How we move forward",
       items: [
         {
           title: "Full Wedding Planning",
@@ -780,7 +907,7 @@ export const dictionaries = {
     },
     experiences: {
       eyebrow: "Signature Experiences",
-      title: "European settings, carefully curated details and a celebration that feels like you.",
+      title: "Experiences we can shape for your wedding.",
       items: [
         {
           title: "German Castle Wedding",
@@ -788,9 +915,9 @@ export const dictionaries = {
             "A romantic architectural setting with refined hosting, candlelit atmosphere and precise flow."
         },
         {
-          title: "European Manor Wedding",
+          title: "Church Ceremony",
           description:
-            "Private estates, vineyards and elegant hideaways for an intimate wedding weekend."
+            "Ceremonies with dignity, intimacy, family warmth and thoughtful on-site coordination."
         },
         {
           title: "Small High-End Destination Wedding",
@@ -798,12 +925,27 @@ export const dictionaries = {
             "A considered guest list, richer experience and more room for meaningful moments."
         },
         {
-          title: "Cross-Cultural Wedding",
+          title: "European Long-Table Dinner",
+          description:
+            "Tablescape, lighting, florals, menu rhythm and guest flow shaped into one elegant dinner experience."
+        },
+        {
+          title: "Champagne Reception",
+          description:
+            "Light, elegant moments for arrival, post-ceremony mingling or pre-dinner hosting."
+        },
+        {
+          title: "Guest Hosting",
+          description:
+            "Arrival, transfers, welcome moments and clear guidance for international guests."
+        },
+        {
+          title: "Cross-Cultural Ceremony Design",
           description:
             "Chinese, German and international traditions are blended with sensitivity and restraint."
         },
         {
-          title: "Wedding Visual Storytelling",
+          title: "Travel & Visual Storytelling",
           description:
             "Photo, film, stationery and spatial design follow one coherent visual narrative."
         }
@@ -846,28 +988,22 @@ export const dictionaries = {
       ]
     },
     portfolio: {
-      eyebrow: "Portfolio / Moments",
-      title: "European wedding moments with quiet elegance.",
+      eyebrow: "Style Inspiration",
+      title: "The wedding atmosphere we love to create.",
       intro:
-        "Castle ceremonies, elegant dinners and destination wedding details reflect L&J's warm, international aesthetic.",
+        "A glimpse into the aesthetic direction we prefer and shape: restrained, elegant, natural and rooted in a sense of European place.",
       items: [
         {
           src: "/images/castle-ceremony.jpg",
           alt: "Castle wedding ceremony with golden details",
-          title: "Castle Ceremony",
+          title: "Castle Wedding",
           caption: "A classic European setting, styled with modern warmth."
         },
         {
-          src: "/images/manor-dinner.jpg",
-          alt: "Elegant dinner in a European manor house",
-          title: "Manor Dinner",
-          caption: "Fine dining, candlelight and a flow that feels effortless."
-        },
-        {
-          src: "/images/bridal-details.jpg",
-          alt: "Bridal stationery and textile details",
-          title: "Bridal Details",
-          caption: "Stationery, texture and small gestures carry the story of the day."
+          src: "/images/hero-wedding.jpg",
+          alt: "European ceremony space in warm light",
+          title: "Church Ceremony",
+          caption: "A sense of ceremony that feels dignified, intimate and warm."
         },
         {
           src: "/images/lakeside-vows.jpg",
@@ -876,16 +1012,66 @@ export const dictionaries = {
           caption: "Intimate destination weddings with space for genuine emotion."
         },
         {
+          src: "/images/manor-dinner.jpg",
+          alt: "Elegant dinner in a European manor house",
+          title: "European Long-Table Dinner",
+          caption: "Fine dining, candlelight and a flow that feels effortless."
+        },
+        {
           src: "/images/table-design.jpg",
           alt: "Champagne-toned floral table design",
-          title: "Table Design",
+          title: "Floral Design Details",
           caption: "Restrained color, fine materials and a graceful guest flow."
         },
         {
-          src: "/images/visual-story.jpg",
-          alt: "Wedding film and visual storytelling",
-          title: "Visual Story",
-          caption: "Photo and film become part of the aesthetic plan from the beginning."
+          src: "/images/bridal-details.jpg",
+          alt: "Wedding stationery, gifts and textile details",
+          title: "Stationery & Gift Details",
+          caption: "Stationery, texture and small gestures carry the story of the day."
+        }
+      ]
+    },
+    selectedWeddings: {
+      eyebrow: "Selected Weddings",
+      title: "Beyond beautiful images, execution is what matters.",
+      intro:
+        "Each wedding is presented through location, guest count, service scope, wedding type and execution highlights, so the planning work behind the images becomes clear.",
+      labels: {
+        guests: "Guest count",
+        service: "Service",
+        type: "Wedding type",
+        highlight: "Execution highlight"
+      },
+      items: [
+        {
+          src: "/images/castle-ceremony.jpg",
+          alt: "German castle wedding case",
+          title: "German Castle Wedding",
+          location: "Castle venue in Germany",
+          guests: "Approx. 60 guests",
+          service: "Wedding planning / venue communication / vendor coordination / wedding day execution",
+          type: "Castle wedding",
+          highlight: "Castle ceremony, dinner flow, guest hosting and German-Chinese-English communication."
+        },
+        {
+          src: "/images/lakeside-vows.jpg",
+          alt: "European lakeside destination wedding case",
+          title: "Lakeside Destination Wedding",
+          location: "European lakeside venue",
+          guests: "Approx. 30 guests",
+          service: "Destination wedding planning / travel flow / visual direction",
+          type: "Small high-end destination wedding",
+          highlight: "Intimate ceremony, guest travel experience, photo timeline and natural emotional flow."
+        },
+        {
+          src: "/images/manor-dinner.jpg",
+          alt: "European manor dinner wedding case",
+          title: "European Manor Dinner",
+          location: "Manor venue in Germany or Europe",
+          guests: "Approx. 80 guests",
+          service: "Dinner concept / vendor coordination / wedding day timeline",
+          type: "European dinner & champagne reception",
+          highlight: "Long-table setting, florals, candlelight, reception moment and precise service flow."
         }
       ]
     },
