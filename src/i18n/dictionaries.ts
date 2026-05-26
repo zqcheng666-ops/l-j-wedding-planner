@@ -160,9 +160,9 @@ export const dictionaries = {
     },
     portfolio: {
       eyebrow: "Portfolio / Momente",
-      title: "Bildwelten für zukünftige echte Geschichten.",
+      title: "Europäische Hochzeitsmomente mit ruhiger Eleganz.",
       intro:
-        "Die aktuellen Bilder sind hochwertige Platzhalter und können später einfach durch reale Hochzeitsmomente ersetzt werden.",
+        "Schlosszeremonien, elegante Dinners und feine Details zeigen die warme, internationale Ästhetik von L&J.",
       items: [
         {
           src: "/images/castle-ceremony.jpg",
@@ -533,9 +533,9 @@ export const dictionaries = {
     },
     portfolio: {
       eyebrow: "案例 / 瞬间",
-      title: "先以高级占位图呈现未来真实案例的气质。",
+      title: "欧洲婚礼灵感与真实瞬间。",
       intro:
-        "当前图片均为可替换占位图，后续可以直接替换为真实婚礼照片。",
+        "从城堡仪式、庄园晚宴到目的地婚礼细节，呈现 L&J 对空间、光线与情绪的审美把控。",
       items: [
         {
           src: "/images/castle-ceremony.jpg",
@@ -906,9 +906,9 @@ export const dictionaries = {
     },
     portfolio: {
       eyebrow: "Portfolio / Moments",
-      title: "A visual mood for future real stories.",
+      title: "European wedding moments with quiet elegance.",
       intro:
-        "The current images are refined placeholders and can be replaced with real wedding moments later.",
+        "Castle ceremonies, elegant dinners and destination wedding details reflect L&J's warm, international aesthetic.",
       items: [
         {
           src: "/images/castle-ceremony.jpg",
