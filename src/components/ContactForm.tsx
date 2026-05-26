@@ -26,6 +26,8 @@ export function ContactForm({ dictionary }: ContactFormProps) {
       weddingDate: String(formData.get("weddingDate") || ""),
       location: String(formData.get("location") || ""),
       guestCount: String(formData.get("guestCount") || ""),
+      budgetRange: String(formData.get("budgetRange") || ""),
+      serviceNeed: String(formData.get("serviceNeed") || ""),
       preferredLanguage: String(formData.get("preferredLanguage") || ""),
       message: String(formData.get("message") || ""),
       gdprConsent: formData.get("gdprConsent") === "on",
@@ -142,6 +144,28 @@ export function ContactForm({ dictionary }: ContactFormProps) {
             placeholder={dictionary.fields.guestCount.placeholder}
             className="field-input"
           />
+        </Field>
+
+        <Field label={dictionary.fields.budgetRange.label}>
+          <select name="budgetRange" className="field-input">
+            <option value="">{dictionary.fields.budgetRange.placeholder}</option>
+            {dictionary.budgetOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </Field>
+
+        <Field label={dictionary.fields.serviceNeed.label}>
+          <select name="serviceNeed" className="field-input">
+            <option value="">{dictionary.fields.serviceNeed.placeholder}</option>
+            {dictionary.serviceOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
         </Field>
 
         <Field label={dictionary.fields.preferredLanguage.label} required>

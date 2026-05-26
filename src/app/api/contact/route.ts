@@ -10,6 +10,8 @@ type ContactPayload = {
   weddingDate?: unknown;
   location?: unknown;
   guestCount?: unknown;
+  budgetRange?: unknown;
+  serviceNeed?: unknown;
   preferredLanguage?: unknown;
   message?: unknown;
   gdprConsent?: unknown;
@@ -23,6 +25,8 @@ const MAX_LENGTH = {
   weddingDate: 40,
   location: 180,
   guestCount: 40,
+  budgetRange: 80,
+  serviceNeed: 120,
   preferredLanguage: 40,
   message: 3000
 };
@@ -47,6 +51,8 @@ export async function POST(request: Request) {
     weddingDate: readString(payload.weddingDate, MAX_LENGTH.weddingDate),
     location: readString(payload.location, MAX_LENGTH.location),
     guestCount: readString(payload.guestCount, MAX_LENGTH.guestCount),
+    budgetRange: readString(payload.budgetRange, MAX_LENGTH.budgetRange),
+    serviceNeed: readString(payload.serviceNeed, MAX_LENGTH.serviceNeed),
     preferredLanguage: readString(payload.preferredLanguage, MAX_LENGTH.preferredLanguage),
     message: readString(payload.message, MAX_LENGTH.message)
   };
@@ -81,6 +87,8 @@ export async function POST(request: Request) {
     ["Wedding Date", data.weddingDate || "Not provided"],
     ["Wedding Location", data.location || "Not provided"],
     ["Guest Count", data.guestCount || "Not provided"],
+    ["Budget Range", data.budgetRange || "Not provided"],
+    ["Service Need", data.serviceNeed || "Not provided"],
     ["Preferred Language", data.preferredLanguage],
     ["Submitted At", submittedAt]
   ] as const;

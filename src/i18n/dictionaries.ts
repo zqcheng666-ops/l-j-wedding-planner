@@ -17,25 +17,25 @@ export const dictionaries = {
         { id: "about", label: "Über uns" },
         { id: "inspiration", label: "Inspiration" },
         { id: "services", label: "Arbeitsweise" },
-        { id: "moments", label: "Weddings" },
+        { id: "moments", label: "Ausgewählte Hochzeiten" },
         { id: "contact", label: "Kontakt" }
       ]
     },
     hero: {
       imageAlt: "Elegante europäische Hochzeitslocation mit warmem Licht",
       kicker: "Maßgeschneiderte Hochzeiten für moderne Romantiker",
-      title: "Luxuriöse Hochzeitsplanung in Deutschland & Europa",
+      title: "Ruhige, hochwertige Hochzeitsplanung in Deutschland & Europa",
       subtitle:
-        "Für Paare mit Sinn für Ästhetik gestalten wir elegante, gelassene und unverwechselbare Hochzeitserlebnisse in Europa.",
+        "Für chinesischsprachige und internationale Paare planen wir Schlosshochzeiten, Destination Weddings und deutsch-chinesisch-englische Hochzeitskoordination. Von Location-Kommunikation und Budgetplanung bis zur Umsetzung am Hochzeitstag machen wir europäische Hochzeitsplanung klar, elegant und vertrauensvoll.",
       primaryCta: "Beratung buchen",
       secondaryCta: "Arbeitsweise entdecken",
-      note: "Hochzeitsplanung in Deutschland & Europa\nSchloss Hochzeit / Reisehochzeit / Deutsch-Chinesisch-Englische Koordination"
+      note: "Deutsche lokale Ressourcen / Europäische Locations / Mehrsprachige Umsetzung"
     },
     about: {
       eyebrow: "Über L&J",
       title: "Ein deutsches Planungsstudio für Paare, die Europa bewusst wählen.",
       paragraphs: [
-        "L&J Wedding Planner ist ein hochwertiges Hochzeitsplanungsstudio in Deutschland, spezialisiert auf Destination Weddings, Schloss Hochzeiten und interkulturelle Feiern für chinesischsprachige und internationale Paare.",
+        "L&J Wedding Planner ist ein hochwertiges Hochzeitsplanungsstudio in Deutschland, spezialisiert auf Destination Weddings, Schlosshochzeiten und interkulturelle Feiern für chinesischsprachige und internationale Paare.",
         "Gegründet von Eva Li und Lukas Cheng, verbinden wir deutsche lokale Ressourcen, chinesische Kommunikation, deutsch-chinesisch-englische Koordination sowie europäische Location- und Dienstleistererfahrung mit einem klaren Sinn für Ästhetik und Umsetzung."
       ],
       highlights: [
@@ -66,7 +66,7 @@ export const dictionaries = {
             "Ganzheitliche Begleitung von der ersten Idee bis zum letzten Gastmoment: Konzept, Budget, Design, Dienstleisterauswahl, Ablaufplanung, Gästemanagement und verlässliche Umsetzung vor Ort."
         },
         {
-          title: "Reisehochzeit in Europa",
+          title: "Destination Wedding in Europa",
           label: "Feiern an besonderen Orten",
           description:
             "Planung für Hochzeiten in Deutschland und Europa, einschließlich Schloss-, Gutshof- und Hotelsettings, Reiseablauf, Gästeerlebnis, lokaler Logistik und kultureller Erwartungen."
@@ -84,7 +84,7 @@ export const dictionaries = {
       title: "Erlebnisse, die wir für Ihre Hochzeit möglich machen.",
       items: [
         {
-          title: "Deutsche Schloss Hochzeit",
+          title: "Deutsche Schlosshochzeit",
           description:
             "Eine romantische Kulisse mit historischer Architektur, feiner Tischkultur und präzisem Ablauf."
         },
@@ -94,7 +94,7 @@ export const dictionaries = {
             "Feierliche Zeremonien mit ruhiger Dramaturgie, Familiengefühl und sensibler Abstimmung vor Ort."
         },
         {
-          title: "Kleine hochwertige Reisehochzeit",
+          title: "Kleine hochwertige Destination Wedding",
           description:
             "Bewusst reduzierte Gästelisten, dafür mehr Zeit, Atmosphäre und persönliche Erlebnisse."
         },
@@ -170,20 +170,20 @@ export const dictionaries = {
         {
           src: "/images/castle-ceremony.jpg",
           alt: "Schlosszeremonie mit goldenen Details",
-          title: "Schloss Hochzeit",
+          title: "Schlosshochzeit",
           caption: "Eine klassische europäische Kulisse, modern und warm inszeniert."
         },
         {
-          src: "/images/hero-wedding.jpg",
+          src: "/images/church-ceremony.png",
           alt: "Feierliche europäische Zeremonie mit warmem Licht",
           title: "Kirchliche Trauung",
           caption: "Ruhige Zeremonien mit Würde, Nähe und einem klaren Gefühl für den Ort."
         },
         {
-          src: "/images/lakeside-vows.jpg",
+          src: "/images/bavaria-lakeside-wedding.png",
           alt: "Freie Trauung am europäischen See",
           title: "Gelübde am See",
-          caption: "Intime Reisehochzeiten mit viel Raum für Nähe."
+          caption: "Intime Destination Weddings mit viel Raum für Nähe."
         },
         {
           src: "/images/manor-dinner.jpg",
@@ -198,7 +198,7 @@ export const dictionaries = {
           caption: "Reduzierte Farben, feine Materialien und eine ruhige Dramaturgie."
         },
         {
-          src: "/images/bridal-details.jpg",
+          src: "/images/planning-editorial.png",
           alt: "Brautdetails mit Papeterie und Stoffstrukturen",
           title: "Papeterie & Geschenke",
           caption: "Papeterie, Stoffe und kleine Gesten erzählen die Geschichte des Tages."
@@ -207,11 +207,11 @@ export const dictionaries = {
     },
     selectedWeddings: {
       eyebrow: "Selected Weddings",
-      title: "Ausgewählte Hochzeitsformate mit klarer Umsetzung.",
+      title: "Ausgewählte Hochzeiten mit klarer Umsetzung.",
       intro:
         "Jedes Format zeigt Ort, Gästezahl, Leistungsumfang, Hochzeitstyp und Umsetzungsfokus, damit sichtbar wird, wie Planung vor Ort wirklich greifbar wird.",
       labels: {
-        guests: "Gäste",
+        guests: "Beispielgröße",
         service: "Leistung",
         type: "Hochzeitstyp",
         highlight: "Umsetzungsfokus"
@@ -220,31 +220,31 @@ export const dictionaries = {
         {
           src: "/images/castle-ceremony.jpg",
           alt: "Schloss Hochzeit in Deutschland",
-          title: "Deutsche Schloss Hochzeit",
-          location: "Deutschland",
+          title: "Private Schlosshochzeit bei Stuttgart",
+          location: "Region Stuttgart, Deutschland",
           guests: "ca. 60 Personen",
           service: "Planung / Location-Kommunikation / Dienstleisterkoordination / Hochzeitstag",
-          type: "Schloss Hochzeit",
+          type: "Schlosshochzeit",
           highlight: "Zeremonie im Schloss, Dinner-Flow, Gästeempfang und deutsch-chinesisch-englische Kommunikation."
         },
         {
-          src: "/images/lakeside-vows.jpg",
+          src: "/images/bavaria-lakeside-wedding.png",
           alt: "Kleine europäische Reisehochzeit am See",
-          title: "Lakeside Destination Wedding",
-          location: "Europa",
+          title: "Intime Hochzeit am See in Bayern",
+          location: "Bayern, Deutschland",
           guests: "ca. 30 Personen",
           service: "Destination Wedding Planung / Reiseablauf / visuelle Regie",
-          type: "Kleine hochwertige Reisehochzeit",
+          type: "Kleine hochwertige Destination Wedding",
           highlight: "Intime Zeremonie, Gästereise, Fotomomente und ruhige Tagesdramaturgie."
         },
         {
           src: "/images/manor-dinner.jpg",
           alt: "Europäisches Hochzeitsdinner in einem Gutshaus",
-          title: "European Manor Dinner",
-          location: "Deutschland oder Europa",
+          title: "Deutsch-Chinesische Hochzeit in Frankfurt",
+          location: "Frankfurt am Main",
           guests: "ca. 80 Personen",
           service: "Dinner-Konzept / Dienstleisterabstimmung / Ablaufplanung",
-          type: "Europäisches Dinner & Empfang",
+          type: "Interkulturelle Hochzeit & Dinner",
           highlight: "Lange Tafel, Floristik, Kerzenlicht, Empfangssituation und präzise Serviceabläufe."
         }
       ]
@@ -326,6 +326,8 @@ export const dictionaries = {
         weddingDate: { label: "Hochzeitsdatum", placeholder: "" },
         location: { label: "Hochzeitsstadt / Location", placeholder: "München, Schloss, Hotel ..." },
         guestCount: { label: "Gästezahl", placeholder: "z. B. 60" },
+        budgetRange: { label: "Budgetrahmen", placeholder: "Bitte wählen" },
+        serviceNeed: { label: "Gewünschte Leistung", placeholder: "Bitte wählen" },
         preferredLanguage: { label: "Bevorzugte Sprache", placeholder: "Bitte wählen" },
         message: {
           label: "Nachricht",
@@ -340,6 +342,21 @@ export const dictionaries = {
         { value: "de", label: "Deutsch" },
         { value: "zh", label: "中文" },
         { value: "en", label: "English" }
+      ],
+      budgetOptions: [
+        { value: "not-sure", label: "Noch nicht sicher" },
+        { value: "under-20000", label: "Unter 20.000 €" },
+        { value: "20000-50000", label: "20.000–50.000 €" },
+        { value: "50000-100000", label: "50.000–100.000 €" },
+        { value: "over-100000", label: "Über 100.000 €" }
+      ],
+      serviceOptions: [
+        { value: "full-planning", label: "Komplette Hochzeitsplanung" },
+        { value: "destination-wedding", label: "Destination Wedding in Europa" },
+        { value: "castle-wedding", label: "Schlosshochzeit" },
+        { value: "day-coordination", label: "Koordination am Hochzeitstag" },
+        { value: "venue-vendor", label: "Location- / Dienstleisterkommunikation" },
+        { value: "not-sure", label: "Noch nicht sicher, erst Beratung gewünscht" }
       ]
     },
     footer: {
@@ -440,12 +457,12 @@ export const dictionaries = {
     hero: {
       imageAlt: "温暖光线中的欧洲高端婚礼场地",
       kicker: "为现代浪漫主义者定制婚礼",
-      title: "德国与欧洲高端婚礼策划",
+      title: "在德国与欧洲，策划一场从容而高级的婚礼",
       subtitle:
-        "为懂得生活美学的新人，打造优雅、从容、独一无二的欧洲婚礼体验。",
+        "为中文及国际新人提供城堡婚礼、目的地婚礼与中德英多语言婚礼统筹。从场地沟通、预算规划到婚礼日执行，让复杂的欧洲婚礼筹备变得清晰、优雅、安心。",
       primaryCta: "预约咨询",
       secondaryCta: "了解服务方式",
-      note: "德国与欧洲高端婚礼策划\n城堡婚礼 / 目的地婚礼 / 中德英多语言统筹"
+      note: "中文新人 / 国际新人 · 德国本地资源 · 欧洲场地执行"
     },
     about: {
       eyebrow: "品牌介绍",
@@ -590,13 +607,13 @@ export const dictionaries = {
           caption: "经典欧洲场景，以现代、温暖的方式呈现。"
         },
         {
-          src: "/images/hero-wedding.jpg",
+          src: "/images/church-ceremony.png",
           alt: "温暖光线中的欧洲仪式空间",
           title: "教堂婚礼",
           caption: "庄重但不沉重的仪式感，保留亲密与温度。"
         },
         {
-          src: "/images/lakeside-vows.jpg",
+          src: "/images/bavaria-lakeside-wedding.png",
           alt: "欧洲湖畔婚礼誓言",
           title: "湖畔誓言",
           caption: "亲密的小型目的地婚礼，留出更多真实情绪。"
@@ -614,7 +631,7 @@ export const dictionaries = {
           caption: "克制的色彩、细腻的材质与优雅动线。"
         },
         {
-          src: "/images/bridal-details.jpg",
+          src: "/images/planning-editorial.png",
           alt: "婚礼纸品、礼物与面料细节",
           title: "纸品与礼物细节",
           caption: "纸品、材质与细节共同讲述婚礼故事。"
@@ -627,7 +644,7 @@ export const dictionaries = {
       intro:
         "案例板块以更信息化的方式呈现地点、人数、服务范围、婚礼类型与执行亮点，让客户看到一场婚礼背后的真实统筹能力。",
       labels: {
-        guests: "人数",
+        guests: "示例规模",
         service: "服务内容",
         type: "婚礼类型",
         highlight: "执行亮点"
@@ -636,18 +653,18 @@ export const dictionaries = {
         {
           src: "/images/castle-ceremony.jpg",
           alt: "德国城堡婚礼案例",
-          title: "德国城堡婚礼",
-          location: "德国城堡场地",
+          title: "Private Castle Wedding near Stuttgart",
+          location: "斯图加特周边私人城堡场地",
           guests: "约 60 人",
           service: "婚礼策划 / 场地沟通 / 供应商协调 / 婚礼日执行",
           type: "城堡婚礼",
           highlight: "城堡仪式、晚宴动线、宾客接待、中德英多语言沟通。"
         },
         {
-          src: "/images/lakeside-vows.jpg",
+          src: "/images/bavaria-lakeside-wedding.png",
           alt: "欧洲湖畔目的地婚礼案例",
-          title: "欧洲湖畔目的地婚礼",
-          location: "欧洲湖区场地",
+          title: "Intimate Lakeside Wedding in Bavaria",
+          location: "德国巴伐利亚湖区",
           guests: "约 30 人",
           service: "目的地婚礼策划 / 旅行动线 / 视觉统筹",
           type: "小型高端目的地婚礼",
@@ -656,11 +673,11 @@ export const dictionaries = {
         {
           src: "/images/manor-dinner.jpg",
           alt: "欧式庄园晚宴案例",
-          title: "欧式庄园晚宴",
-          location: "德国或欧洲庄园场地",
+          title: "Chinese-German Wedding in Frankfurt",
+          location: "德国法兰克福",
           guests: "约 80 人",
           service: "晚宴设计 / 供应商协调 / 婚礼日流程统筹",
-          type: "欧式晚宴与香槟酒会",
+          type: "中德跨文化婚礼与晚宴",
           highlight: "长桌布置、花艺烛光、迎宾酒会、餐饮节奏与现场执行。"
         }
       ]
@@ -742,6 +759,8 @@ export const dictionaries = {
         weddingDate: { label: "婚礼日期", placeholder: "" },
         location: { label: "婚礼城市 / 场地", placeholder: "慕尼黑、城堡、酒店 ..." },
         guestCount: { label: "宾客人数", placeholder: "例如 60" },
+        budgetRange: { label: "预算范围", placeholder: "请选择" },
+        serviceNeed: { label: "服务需求", placeholder: "请选择" },
         preferredLanguage: { label: "首选沟通语言", placeholder: "请选择" },
         message: {
           label: "留言",
@@ -756,6 +775,21 @@ export const dictionaries = {
         { value: "de", label: "Deutsch" },
         { value: "zh", label: "中文" },
         { value: "en", label: "English" }
+      ],
+      budgetOptions: [
+        { value: "not-sure", label: "还不确定" },
+        { value: "under-20000", label: "20,000 € 以下" },
+        { value: "20000-50000", label: "20,000–50,000 €" },
+        { value: "50000-100000", label: "50,000–100,000 €" },
+        { value: "over-100000", label: "100,000 € 以上" }
+      ],
+      serviceOptions: [
+        { value: "full-planning", label: "全案婚礼策划" },
+        { value: "destination-wedding", label: "欧洲目的地婚礼" },
+        { value: "castle-wedding", label: "城堡婚礼" },
+        { value: "day-coordination", label: "婚礼日执行" },
+        { value: "venue-vendor", label: "场地 / 供应商沟通" },
+        { value: "not-sure", label: "还不确定，希望先咨询" }
       ]
     },
     footer: {
@@ -835,7 +869,7 @@ export const dictionaries = {
   },
   en: {
     meta: {
-      title: "L&J Wedding Planner | Luxury Wedding Planning in Germany & Europe",
+      title: "L&J Wedding Planner | Calm, Refined Wedding Planning Across Germany & Europe",
       description:
         "Elegant wedding planning for castle, destination and multilingual weddings across Germany and Europe."
     },
@@ -856,12 +890,12 @@ export const dictionaries = {
     hero: {
       imageAlt: "Elegant European wedding venue in warm light",
       kicker: "Bespoke weddings for modern romantics",
-      title: "Luxury Wedding Planning in Germany & Europe",
+      title: "Calm, Refined Wedding Planning Across Germany & Europe",
       subtitle:
-        "For couples with a refined sense of beauty, we create elegant, calm and deeply personal wedding experiences across Europe.",
+        "For Chinese-speaking and international couples, we plan castle weddings, destination celebrations and German-Chinese-English wedding coordination. From venue communication and budget planning to wedding day execution, we make complex European weddings feel clear, elegant and reassuring.",
       primaryCta: "Book a Consultation",
       secondaryCta: "Explore How We Work",
-      note: "Luxury wedding planning in Germany & Europe\nCastle weddings / destination weddings / German-Chinese-English coordination"
+      note: "Chinese-speaking couples / international families · German resources · European venue execution"
     },
     about: {
       eyebrow: "About L&J",
@@ -1006,13 +1040,13 @@ export const dictionaries = {
           caption: "A classic European setting, styled with modern warmth."
         },
         {
-          src: "/images/hero-wedding.jpg",
+          src: "/images/church-ceremony.png",
           alt: "European ceremony space in warm light",
           title: "Church Ceremony",
           caption: "A sense of ceremony that feels dignified, intimate and warm."
         },
         {
-          src: "/images/lakeside-vows.jpg",
+          src: "/images/bavaria-lakeside-wedding.png",
           alt: "Lakeside wedding vows in Europe",
           title: "Lakeside Vows",
           caption: "Intimate destination weddings with space for genuine emotion."
@@ -1030,7 +1064,7 @@ export const dictionaries = {
           caption: "Restrained color, fine materials and a graceful guest flow."
         },
         {
-          src: "/images/bridal-details.jpg",
+          src: "/images/planning-editorial.png",
           alt: "Wedding stationery, gifts and textile details",
           title: "Stationery & Gift Details",
           caption: "Stationery, texture and small gestures carry the story of the day."
@@ -1043,7 +1077,7 @@ export const dictionaries = {
       intro:
         "Each wedding is presented through location, guest count, service scope, wedding type and execution highlights, so the planning work behind the images becomes clear.",
       labels: {
-        guests: "Guest count",
+        guests: "Example scale",
         service: "Service",
         type: "Wedding type",
         highlight: "Execution highlight"
@@ -1052,18 +1086,18 @@ export const dictionaries = {
         {
           src: "/images/castle-ceremony.jpg",
           alt: "German castle wedding case",
-          title: "German Castle Wedding",
-          location: "Castle venue in Germany",
+          title: "Private Castle Wedding near Stuttgart",
+          location: "Stuttgart region, Germany",
           guests: "Approx. 60 guests",
           service: "Wedding planning / venue communication / vendor coordination / wedding day execution",
           type: "Castle wedding",
           highlight: "Castle ceremony, dinner flow, guest hosting and German-Chinese-English communication."
         },
         {
-          src: "/images/lakeside-vows.jpg",
+          src: "/images/bavaria-lakeside-wedding.png",
           alt: "European lakeside destination wedding case",
-          title: "Lakeside Destination Wedding",
-          location: "European lakeside venue",
+          title: "Intimate Lakeside Wedding in Bavaria",
+          location: "Bavaria, Germany",
           guests: "Approx. 30 guests",
           service: "Destination wedding planning / travel flow / visual direction",
           type: "Small high-end destination wedding",
@@ -1072,11 +1106,11 @@ export const dictionaries = {
         {
           src: "/images/manor-dinner.jpg",
           alt: "European manor dinner wedding case",
-          title: "European Manor Dinner",
-          location: "Manor venue in Germany or Europe",
+          title: "Chinese-German Wedding in Frankfurt",
+          location: "Frankfurt am Main, Germany",
           guests: "Approx. 80 guests",
           service: "Dinner concept / vendor coordination / wedding day timeline",
-          type: "European dinner & champagne reception",
+          type: "Cross-cultural wedding & dinner",
           highlight: "Long-table setting, florals, candlelight, reception moment and precise service flow."
         }
       ]
@@ -1158,6 +1192,8 @@ export const dictionaries = {
         weddingDate: { label: "Wedding Date", placeholder: "" },
         location: { label: "Wedding Location", placeholder: "Munich, castle, hotel ..." },
         guestCount: { label: "Guest Count", placeholder: "e.g. 60" },
+        budgetRange: { label: "Budget Range", placeholder: "Please choose" },
+        serviceNeed: { label: "Service Need", placeholder: "Please choose" },
         preferredLanguage: { label: "Preferred Language", placeholder: "Please choose" },
         message: {
           label: "Message",
@@ -1172,6 +1208,21 @@ export const dictionaries = {
         { value: "de", label: "Deutsch" },
         { value: "zh", label: "中文" },
         { value: "en", label: "English" }
+      ],
+      budgetOptions: [
+        { value: "not-sure", label: "Not sure yet" },
+        { value: "under-20000", label: "Under 20,000 €" },
+        { value: "20000-50000", label: "20,000–50,000 €" },
+        { value: "50000-100000", label: "50,000–100,000 €" },
+        { value: "over-100000", label: "Over 100,000 €" }
+      ],
+      serviceOptions: [
+        { value: "full-planning", label: "Full Wedding Planning" },
+        { value: "destination-wedding", label: "European Destination Wedding" },
+        { value: "castle-wedding", label: "Castle Wedding" },
+        { value: "day-coordination", label: "Wedding Day Coordination" },
+        { value: "venue-vendor", label: "Venue / Vendor Communication" },
+        { value: "not-sure", label: "Not sure yet, would like to consult first" }
       ]
     },
     footer: {
