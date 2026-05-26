@@ -305,45 +305,41 @@ export const dictionaries = {
       backHome: "Zurück zur Startseite",
       impressum: {
         title: "Impressum",
-        intro:
-          "Diese Seite ist als strukturierte Vorlage angelegt. Bitte ersetzen Sie alle Platzhalter durch die verbindlichen Unternehmensdaten.",
+        intro: "",
         sections: [
           {
             title: "Anbieter",
             body: [
               "L&J Wedding Planner",
-              "[Name / Rechtsform ergänzen]",
-              "[Straße und Hausnummer ergänzen]",
-              "[PLZ und Ort ergänzen]",
+              "Klosterstraße 81",
+              "40211 Düsseldorf",
               "Deutschland"
             ]
           },
           {
             title: "Kontakt",
-            body: ["E-Mail: [E-Mail ergänzen]", "Telefon: [Telefonnummer ergänzen]"]
+            body: ["E-Mail: ljweddingstudio@gmail.com", "Telefon: +49 176 45077022"]
           },
           {
             title: "Verantwortlich für den Inhalt",
-            body: ["[Name der verantwortlichen Person ergänzen]"]
-          },
-          {
-            title: "Hinweis",
-            body: [
-              "Bitte lassen Sie diese Angaben vor Veröffentlichung rechtlich prüfen, insbesondere wenn das Unternehmen bereits registriert ist oder weitere Pflichtangaben erforderlich sind."
-            ]
+            body: ["Eva Li und Lukas Cheng"]
           }
         ]
       },
       datenschutz: {
         title: "Datenschutz",
         intro:
-          "Diese Datenschutzerklärung ist eine Vorlage für den Start. Bitte prüfen und vervollständigen Sie sie vor Veröffentlichung passend zu Ihren tatsächlichen Tools und Prozessen.",
+          "Wir informieren Sie darüber, welche personenbezogenen Daten beim Besuch dieser Website und bei der Nutzung des Kontaktformulars verarbeitet werden.",
         sections: [
           {
             title: "Verantwortliche Stelle",
             body: [
               "L&J Wedding Planner",
-              "[Name / Anschrift / Kontakt ergänzen]"
+              "Klosterstraße 81",
+              "40211 Düsseldorf",
+              "Deutschland",
+              "E-Mail: ljweddingstudio@gmail.com",
+              "Telefon: +49 176 45077022"
             ]
           },
           {
@@ -678,45 +674,41 @@ export const dictionaries = {
       backHome: "返回首页",
       impressum: {
         title: "网站法律信息",
-        intro:
-          "此页面已作为结构化模板创建。上线前请将所有占位内容替换为正式企业信息。",
+        intro: "",
         sections: [
           {
             title: "服务提供方",
             body: [
               "L&J Wedding Planner",
-              "[请补充姓名 / 公司形式]",
-              "[请补充街道与门牌号]",
-              "[请补充邮编与城市]",
+              "Klosterstraße 81",
+              "40211 Düsseldorf",
               "德国"
             ]
           },
           {
             title: "联系方式",
-            body: ["邮箱：[请补充邮箱]", "电话：[请补充电话]"]
+            body: ["邮箱：ljweddingstudio@gmail.com", "电话：+49 176 45077022"]
           },
           {
             title: "内容负责人",
-            body: ["[请补充负责人姓名]"]
-          },
-          {
-            title: "提示",
-            body: [
-              "上线前请根据企业注册情况和德国法律要求进行专业审核。"
-            ]
+            body: ["Eva Li 和 Lukas Cheng"]
           }
         ]
       },
       datenschutz: {
         title: "隐私政策",
         intro:
-          "此隐私政策为上线前模板，请根据实际使用的工具、公司信息和处理流程进行完善。",
+          "我们在此说明访问本网站及使用联系表单时，相关个人信息会如何被处理。",
         sections: [
           {
             title: "责任方",
             body: [
               "L&J Wedding Planner",
-              "[请补充姓名 / 地址 / 联系方式]"
+              "Klosterstraße 81",
+              "40211 Düsseldorf",
+              "德国",
+              "邮箱：ljweddingstudio@gmail.com",
+              "电话：+49 176 45077022"
             ]
           },
           {
@@ -1051,45 +1043,41 @@ export const dictionaries = {
       backHome: "Back to home",
       impressum: {
         title: "Legal Notice",
-        intro:
-          "This page is prepared as a structured template. Please replace all placeholders with your binding business information before launch.",
+        intro: "",
         sections: [
           {
             title: "Provider",
             body: [
               "L&J Wedding Planner",
-              "[Add name / legal form]",
-              "[Add street and house number]",
-              "[Add postal code and city]",
+              "Klosterstraße 81",
+              "40211 Düsseldorf",
               "Germany"
             ]
           },
           {
             title: "Contact",
-            body: ["Email: [add email]", "Phone: [add phone number]"]
+            body: ["Email: ljweddingstudio@gmail.com", "Phone: +49 176 45077022"]
           },
           {
             title: "Responsible for content",
-            body: ["[Add responsible person]"]
-          },
-          {
-            title: "Note",
-            body: [
-              "Please have this information reviewed before publication, especially if the business is registered or further mandatory details apply."
-            ]
+            body: ["Eva Li and Lukas Cheng"]
           }
         ]
       },
       datenschutz: {
         title: "Privacy Policy",
         intro:
-          "This privacy policy is a launch template. Please review and complete it according to your actual tools, company details and data processes.",
+          "We explain how personal data is processed when you visit this website or use the contact form.",
         sections: [
           {
             title: "Controller",
             body: [
               "L&J Wedding Planner",
-              "[Add name / address / contact details]"
+              "Klosterstraße 81",
+              "40211 Düsseldorf",
+              "Germany",
+              "Email: ljweddingstudio@gmail.com",
+              "Phone: +49 176 45077022"
             ]
           },
           {

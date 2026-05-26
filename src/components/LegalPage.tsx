@@ -28,7 +28,9 @@ export function LegalPage({ dictionary, locale, page }: LegalPageProps) {
           <h1 className="mt-10 font-display text-5xl leading-tight text-charcoal sm:text-6xl">
             {content.title}
           </h1>
-          <p className="mt-5 text-lg leading-8 text-charcoal-soft/78">{content.intro}</p>
+          {content.intro ? (
+            <p className="mt-5 text-lg leading-8 text-charcoal-soft/78">{content.intro}</p>
+          ) : null}
 
           <div className="mt-10 grid gap-7">
             {content.sections.map((section) => (
