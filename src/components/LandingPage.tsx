@@ -151,80 +151,103 @@ export function LandingPage({ dictionary, locale }: LandingPageProps) {
           </div>
         </section>
 
-        <section id="services" className="scroll-mt-24 bg-ivory py-20 sm:py-28">
+        <section id="services" className="scroll-mt-24 bg-charcoal py-20 text-warm-white sm:py-28">
           <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
-            <SectionHeader
-              eyebrow={dictionary.services.eyebrow}
-              title={dictionary.services.title}
-            />
-            <p className="mx-auto mt-6 max-w-3xl text-center text-base leading-8 text-charcoal-soft/74">
-              {dictionary.services.intro}
-            </p>
-
-            <div className="mt-14">
-              <p className="text-xs uppercase tracking-[0.28em] text-soft-gold">
-                {dictionary.services.offeringsLabel}
+            <div className="grid gap-8 lg:grid-cols-[0.78fr_1.22fr] lg:items-end">
+              <SectionHeader
+                eyebrow={dictionary.services.eyebrow}
+                title={dictionary.services.title}
+                align="left"
+                tone="dark"
+              />
+              <p className="max-w-2xl text-base leading-8 text-warm-white/72 lg:justify-self-end">
+                {dictionary.services.intro}
               </p>
-              <div className="mt-6 grid gap-px overflow-hidden rounded-lg border border-champagne/45 bg-champagne/45 lg:grid-cols-3">
+            </div>
+
+            <div className="mt-14 grid gap-8 lg:grid-cols-[0.86fr_1.14fr] lg:items-stretch">
+              <div className="relative min-h-[460px] overflow-hidden lg:min-h-[640px]">
+                <Image
+                  src="/images/visual-story.jpg"
+                  alt={dictionary.services.imageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 42vw, 100vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/10 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+                  <p className="text-xs uppercase tracking-[0.28em] text-champagne">
+                    {dictionary.services.offeringsLabel}
+                  </p>
+                  <p className="mt-4 max-w-sm font-display text-4xl leading-tight text-warm-white">
+                    {dictionary.services.imageCaption}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col justify-between border-y border-warm-white/14">
                 {dictionary.services.items.map((service, index) => (
-                  <article key={service.title} className="bg-warm-white p-6 sm:p-8">
-                    <p className="text-sm text-soft-gold">{String(index + 1).padStart(2, "0")}</p>
-                    <h3 className="mt-5 font-display text-3xl text-charcoal">{service.title}</h3>
-                    <p className="mt-1 text-sm text-taupe">{service.label}</p>
-                    <p className="mt-5 leading-7 text-charcoal-soft/78">{service.description}</p>
+                  <article
+                    key={service.title}
+                    className="grid gap-5 border-b border-warm-white/14 py-8 last:border-b-0 sm:grid-cols-[5rem_1fr]"
+                  >
+                    <p className="font-display text-5xl leading-none text-champagne/48">
+                      {String(index + 1).padStart(2, "0")}
+                    </p>
+                    <div>
+                      <h3 className="font-display text-4xl leading-tight text-warm-white">{service.title}</h3>
+                      <p className="mt-2 text-sm text-champagne/72">{service.label}</p>
+                      <p className="mt-5 max-w-2xl leading-7 text-warm-white/72">{service.description}</p>
+                    </div>
                   </article>
                 ))}
               </div>
             </div>
 
-            <div className="-mx-5 mt-16 bg-charcoal px-5 py-12 text-warm-white sm:-mx-8 sm:px-8 lg:-mx-10 lg:px-10">
-              <div className="grid gap-8 lg:grid-cols-[0.36fr_0.64fr] lg:items-start">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.28em] text-champagne">
-                    {dictionary.services.experiencesLabel}
-                  </p>
-                  <h3 className="mt-4 font-display text-4xl leading-tight text-warm-white">
-                    {dictionary.experiences.title}
-                  </h3>
-                </div>
-                <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2">
-                  {dictionary.experiences.items.map((experience) => (
-                    <article key={experience.title} className="border-t border-warm-white/16 pt-5">
-                      <h4 className="font-display text-2xl text-champagne">{experience.title}</h4>
-                      <p className="mt-3 text-sm leading-7 text-warm-white/72">{experience.description}</p>
-                    </article>
-                  ))}
-                </div>
+            <div className="mt-20 grid gap-10 border-t border-warm-white/14 pt-12 lg:grid-cols-[0.32fr_0.68fr]">
+              <div>
+                <p className="text-xs uppercase tracking-[0.28em] text-champagne">
+                  {dictionary.services.experiencesLabel}
+                </p>
+                <h3 className="mt-4 font-display text-4xl leading-tight text-warm-white">
+                  {dictionary.experiences.title}
+                </h3>
+              </div>
+              <div className="grid gap-x-10 gap-y-8 sm:grid-cols-2">
+                {dictionary.experiences.items.map((experience) => (
+                  <article key={experience.title} className="border-t border-warm-white/14 pt-5">
+                    <h4 className="font-display text-2xl text-champagne">{experience.title}</h4>
+                    <p className="mt-3 text-sm leading-7 text-warm-white/66">{experience.description}</p>
+                  </article>
+                ))}
               </div>
             </div>
 
-            <div className="mt-16">
-              <p className="text-xs uppercase tracking-[0.28em] text-soft-gold">
-                {dictionary.services.processLabel}
-              </p>
-              <h3 className="mt-4 max-w-3xl font-display text-4xl leading-tight text-charcoal">
-                {dictionary.process.title}
-              </h3>
-              <div className="relative mt-12">
-                <div
-                  className="absolute bottom-3 left-[1.45rem] top-3 w-px bg-champagne/75 lg:bottom-auto lg:left-0 lg:right-0 lg:top-6 lg:h-px lg:w-auto"
-                  aria-hidden="true"
-                />
-                <div className="relative grid gap-8 lg:grid-cols-5 lg:gap-6">
-                  {dictionary.process.steps.map((step, index) => (
-                    <article
-                      key={step.title}
-                      className="relative border-b border-champagne/55 pb-8 pl-16 last:border-b-0 lg:border-b-0 lg:border-r lg:pb-0 lg:pl-0 lg:pr-6 lg:pt-16 lg:last:border-r-0"
-                    >
-                      <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-soft-gold/55 bg-ivory text-sm text-soft-gold shadow-[0_0_0_10px_rgba(247,244,238,0.92)] lg:top-0">
-                        {String(index + 1).padStart(2, "0")}
-                      </div>
-                      <h4 className="font-display text-3xl leading-tight text-charcoal lg:text-[1.7rem]">{step.title}</h4>
-                      <p className="mt-1 text-sm text-taupe">{step.label}</p>
-                      <p className="mt-5 text-sm leading-7 text-charcoal-soft/78 lg:max-w-[15rem]">{step.description}</p>
-                    </article>
-                  ))}
-                </div>
+            <div className="mt-20 grid gap-10 border-t border-warm-white/14 pt-12 lg:grid-cols-[0.32fr_0.68fr]">
+              <div>
+                <p className="text-xs uppercase tracking-[0.28em] text-champagne">
+                  {dictionary.services.processLabel}
+                </p>
+                <h3 className="mt-4 font-display text-4xl leading-tight text-warm-white">
+                  {dictionary.process.title}
+                </h3>
+              </div>
+              <div className="grid gap-0 border-y border-warm-white/14">
+                {dictionary.process.steps.map((step, index) => (
+                  <article
+                    key={step.title}
+                    className="grid gap-4 border-b border-warm-white/14 py-6 last:border-b-0 sm:grid-cols-[4.5rem_1fr]"
+                  >
+                    <p className="flex h-11 w-11 items-center justify-center rounded-full border border-champagne/45 text-sm text-champagne">
+                      {String(index + 1).padStart(2, "0")}
+                    </p>
+                    <div>
+                      <h4 className="font-display text-2xl leading-tight text-warm-white">{step.title}</h4>
+                      <p className="mt-1 text-sm text-champagne/68">{step.label}</p>
+                      <p className="mt-3 max-w-2xl text-sm leading-7 text-warm-white/66">{step.description}</p>
+                    </div>
+                  </article>
+                ))}
               </div>
             </div>
           </div>

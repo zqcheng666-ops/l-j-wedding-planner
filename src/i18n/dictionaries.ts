@@ -53,6 +53,8 @@ export const dictionaries = {
       title: "Von der ersten Idee bis zum Hochzeitstag begleiten wir mit Struktur, Ästhetik und Ruhe.",
       intro:
         "Unsere Arbeit bündelt Planung, Erlebnisgestaltung und Ablaufsteuerung in einem klaren Prozess, damit Sie verstehen, wie aus einer Idee eine umsetzbare europäische Hochzeit wird.",
+      imageAlt: "Hochzeitsplanung mit Moodboard, Papeterie, Blumen und europäischen Locationbildern",
+      imageCaption: "Vom Konzept bis zum Hochzeitstag",
       offeringsLabel: "A. Was wir anbieten",
       experiencesLabel: "B. Welche Erlebnisse wir gestalten",
       processLabel: "C. Wie wir vorgehen",
@@ -467,6 +469,8 @@ export const dictionaries = {
       title: "从想法到婚礼日，我们如何陪你完成。",
       intro:
         "我们把服务内容、婚礼体验与推进流程整合在一个清晰的服务逻辑里，让你知道我们到底如何帮助一场欧洲婚礼从概念走向落地。",
+      imageAlt: "包含情绪板、婚礼纸品、花艺和欧洲场地照片的婚礼策划桌面",
+      imageCaption: "从概念到婚礼日",
       offeringsLabel: "A. 我们提供什么",
       experiencesLabel: "B. 我们能创造什么体验",
       processLabel: "C. 我们如何推进流程",
@@ -881,6 +885,8 @@ export const dictionaries = {
       title: "From first idea to wedding day, this is how we help you bring it to life.",
       intro:
         "We bring service scope, wedding experience and planning process into one clear structure, so you can understand how a European wedding becomes both beautiful and executable.",
+      imageAlt: "Wedding planning table with moodboard, stationery, florals and European venue images",
+      imageCaption: "From concept to wedding day",
       offeringsLabel: "A. What we provide",
       experiencesLabel: "B. What we can create",
       processLabel: "C. How we move forward",
