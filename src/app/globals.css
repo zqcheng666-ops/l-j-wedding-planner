@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f8f4ea;
+  color: #1e1e1b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.92), rgba(248, 244, 234, 0.98)),
+    #f8f4ea;
+  color: #1e1e1b;
+  font-family: Inter, "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(185, 150, 94, 0.28);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    letter-spacing: 0;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  p,
+  a,
+  button,
+  summary,
+  label {
+    overflow-wrap: break-word;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .field-input {
+    @apply w-full rounded-lg border border-champagne/60 bg-ivory px-4 py-3 text-base text-charcoal outline-none transition placeholder:text-taupe/60 focus:border-soft-gold focus:bg-warm-white focus:ring-4 focus:ring-soft-gold/10;
+  }
+}
