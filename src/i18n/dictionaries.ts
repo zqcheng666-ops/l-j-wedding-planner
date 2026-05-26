@@ -37,7 +37,8 @@ export const dictionaries = {
       title: "Ruhige Präzision, kulturelles Feingefühl und ein Blick für das Schöne.",
       paragraphs: [
         "L&J Wedding Planner ist ein in Deutschland ansässiges Hochzeitsplanungsteam für anspruchsvolle Paare, die eine europäische Hochzeit mit persönlicher Tiefe, Stil und Klarheit wünschen.",
-        "Wir verbinden deutsch-chinesisches Kulturverständnis mit strukturierter Planung, sicherer Kommunikation mit Locations und Dienstleistern, hochwertigem Design und verlässlicher Umsetzung vor Ort."
+        "Wir verbinden deutsch-chinesisches Kulturverständnis mit strukturierter Planung, sicherer Kommunikation mit Locations und Dienstleistern, hochwertigem Design und verlässlicher Umsetzung vor Ort.",
+        "Gegründet wurde L&J Wedding Planner von Eva Li und Lukas Cheng. Wir leben und arbeiten seit vielen Jahren in Deutschland und kennen die kulturellen Unterschiede, die Kommunikation mit europäischen Hochzeitslocations und die Details einer hochwertigen Umsetzung. Unser Ziel ist, dass Paare im Ausland nicht nur ein schönes Konzept erhalten, sondern Klarheit, Sicherheit und das Gefühl, wirklich verstanden zu werden."
       ],
       highlights: [
         "Deutsch-chinesische Kulturkompetenz",
@@ -261,7 +262,7 @@ export const dictionaries = {
       eyebrow: "Contact",
       title: "Erzählen Sie uns von Ihrer Hochzeit.",
       intro:
-        "Teilen Sie uns die ersten Eckdaten mit. Wir melden uns persönlich mit den nächsten sinnvollen Schritten.",
+        "Nach Ihrer Anfrage prüfen wir in der Regel zunächst Hochzeitsdatum, Stadt, Gästezahl, Budgetrahmen und gewünschte Leistungen. Wenn die ersten Eckdaten realistisch zusammenpassen, stimmen wir den nächsten persönlichen Gesprächstermin mit Ihnen ab.",
       submit: "Anfrage senden",
       submitting: "Wird gesendet",
       successTitle: "Vielen Dank für Ihre Anfrage.",
@@ -406,7 +407,8 @@ export const dictionaries = {
       title: "以从容的节奏、精确的执行和跨文化理解，完成一场真正属于你的欧洲婚礼。",
       paragraphs: [
         "L&J Wedding Planner 是位于德国的婚礼策划团队，服务希望在德国及欧洲举办高端婚礼的新人。",
-        "我们理解中德文化差异，也熟悉欧洲场地与供应商沟通方式。从预算、流程、设计审美到婚礼日落地执行，我们帮助新人把复杂的筹备变得清晰、优雅、有掌控感。"
+        "我们理解中德文化差异，也熟悉欧洲场地与供应商沟通方式。从预算、流程、设计审美到婚礼日落地执行，我们帮助新人把复杂的筹备变得清晰、优雅、有掌控感。",
+        "L&J Wedding Planner 由 Eva Li 与 Lukas Cheng 共同创立。我们长期生活和工作在德国，熟悉中德文化差异、欧洲婚礼场地沟通方式以及高端婚礼的执行细节。我们希望帮助新人在异国筹备婚礼时，不只是得到漂亮的方案，也获得清晰、安心和被理解的体验。"
       ],
       highlights: [
         "中德跨文化理解",
@@ -630,7 +632,7 @@ export const dictionaries = {
       eyebrow: "联系咨询",
       title: "告诉我们你们正在期待的婚礼。",
       intro:
-        "请留下初步信息，我们会根据你们的婚礼地点、日期和需求，回复适合的下一步建议。",
+        "提交咨询后，我们通常会先了解婚礼日期、城市、人数、预算方向与服务需求，并在初步判断可行性后安排沟通。",
       submit: "发送咨询",
       submitting: "发送中",
       successTitle: "感谢你的咨询。",
@@ -775,7 +777,8 @@ export const dictionaries = {
       title: "Calm precision, cultural fluency and an eye for enduring beauty.",
       paragraphs: [
         "L&J Wedding Planner is a Germany-based planning studio for discerning couples who want a European wedding with personal meaning, style and clarity.",
-        "We combine Chinese-German cultural understanding with structured planning, confident venue and vendor communication, refined design direction and reliable on-site execution."
+        "We combine Chinese-German cultural understanding with structured planning, confident venue and vendor communication, refined design direction and reliable on-site execution.",
+        "L&J Wedding Planner was founded by Eva Li and Lukas Cheng. Having lived and worked in Germany for many years, we understand Chinese-German cultural differences, the communication style of European wedding venues and the execution details behind high-end celebrations. We want couples planning from abroad to receive more than a beautiful concept: clear guidance, a sense of calm and the feeling of being truly understood."
       ],
       highlights: [
         "Chinese-German cultural fluency",
@@ -999,7 +1002,7 @@ export const dictionaries = {
       eyebrow: "Contact",
       title: "Tell us about the wedding you are imagining.",
       intro:
-        "Share the first details with us. We will reply personally with the next meaningful steps.",
+        "After you submit an inquiry, we usually review your wedding date, city, guest count, budget direction and service needs first. Once the initial details feel feasible, we will arrange the next conversation with you.",
       submit: "Send Inquiry",
       submitting: "Sending",
       successTitle: "Thank you for your inquiry.",
