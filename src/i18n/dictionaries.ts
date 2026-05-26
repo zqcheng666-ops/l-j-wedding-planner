@@ -58,37 +58,19 @@ export const dictionaries = {
           title: "Komplette Hochzeitsplanung",
           label: "Ganzheitliche Begleitung",
           description:
-            "Ganzheitliche Begleitung von der ersten Idee bis zum letzten Gastmoment, inklusive Budget, Design, Dienstleisterauswahl und Ablaufsteuerung."
+            "Ganzheitliche Begleitung von der ersten Idee bis zum letzten Gastmoment: Konzept, Budget, Design, Dienstleisterauswahl, Ablaufplanung, Gästemanagement und verlässliche Umsetzung vor Ort."
         },
         {
           title: "Reisehochzeit in Europa",
           label: "Feiern an besonderen Orten",
           description:
-            "Planung für Hochzeiten in Deutschland und Europa, abgestimmt auf Reise, Gästeerlebnis, lokale Logistik und kulturelle Erwartungen."
+            "Planung für Hochzeiten in Deutschland und Europa, einschließlich Schloss-, Gutshof- und Hotelsettings, Reiseablauf, Gästeerlebnis, lokaler Logistik und kultureller Erwartungen."
         },
         {
-          title: "Schloss Hochzeit",
-          label: "Historische Kulissen",
-          description:
-            "Sorgfältige Suche, Abstimmung und Inszenierung von Schlosslocations mit Sinn für Historie, Atmosphäre und moderne Eleganz."
-        },
-        {
-          title: "Koordination am Hochzeitstag",
-          label: "Souveräne Tagesleitung",
-          description:
-            "Professionelle Tageskoordination für Paare, die bereits geplant haben und am Hochzeitstag eine souveräne Leitung wünschen."
-        },
-        {
-          title: "Kommunikation mit Location & Dienstleistern",
-          label: "Klare Abstimmung",
-          description:
-            "Klare Kommunikation mit Orten, Gastronomie, Floristik, Foto, Video, Musik und weiteren Partnern auf Deutsch, Chinesisch und Englisch."
-        },
-        {
-          title: "Mehrsprachiger Hochzeitsservice",
+          title: "Hochzeitstag & mehrsprachige Koordination",
           label: "Deutsch, Chinesisch und Englisch",
           description:
-            "Mehrsprachige Betreuung für Paare, Familien und Gäste, damit kulturelle Details verstanden und harmonisch umgesetzt werden."
+            "Souveräne Tagesleitung für bereits geplante Hochzeiten sowie klare Kommunikation mit Locations, Gastronomie, Floristik, Foto, Video, Musik, Familien und Gästen."
         }
       ]
     },
@@ -428,37 +410,19 @@ export const dictionaries = {
           title: "全案婚礼策划",
           label: "从灵感到落地",
           description:
-            "从最初灵感到婚礼结束，全程协助预算、设计、供应商选择、流程规划与现场统筹。"
+            "从最初灵感到婚礼结束，全程协助婚礼概念、预算规划、设计审美、供应商选择、流程安排、宾客统筹与现场落地。"
         },
         {
           title: "欧洲目的地婚礼",
           label: "跨城市与跨国家统筹",
           description:
-            "为德国及欧洲多地婚礼提供旅行、宾客体验、当地协调与跨文化沟通支持。"
+            "为德国及欧洲多地婚礼提供完整支持，涵盖城堡、庄园、酒店等场地选择，旅行安排、宾客体验、当地协调与跨文化沟通。"
         },
         {
-          title: "城堡婚礼",
-          label: "历史场地与现代审美",
+          title: "婚礼日执行与多语言统筹",
+          label: "中德英清晰沟通",
           description:
-            "协助寻找、沟通并呈现适合高端婚礼的德国及欧洲城堡场地。"
-        },
-        {
-          title: "婚礼日执行",
-          label: "当天现场统筹",
-          description:
-            "适合已完成主要筹备的新人，由我们负责婚礼日前确认与当天现场执行。"
-        },
-        {
-          title: "场地与供应商沟通",
-          label: "德中英清晰协调",
-          description:
-            "以德语、中文、英语协调场地、餐饮、花艺、摄影摄像、音乐及其他供应商。"
-        },
-        {
-          title: "中德英多语言婚礼服务",
-          label: "照顾新人、家人与宾客",
-          description:
-            "为新人、家人、宾客与欧洲服务团队建立顺畅沟通，照顾文化细节与仪式表达。"
+            "适合已完成主要筹备的新人，由我们负责婚礼日前确认、当天现场执行，以及场地、餐饮、花艺、摄影摄像、音乐、家人与宾客之间的中德英沟通。"
         }
       ]
     },
@@ -798,37 +762,19 @@ export const dictionaries = {
           title: "Full Wedding Planning",
           label: "Complete planning",
           description:
-            "Complete support from first concept to the final guest moment, including budget, design, vendor sourcing and timeline management."
+            "Complete support from first concept to the final guest moment, including concept development, budget, design direction, vendor sourcing, timeline planning, guest coordination and on-site execution."
         },
         {
           title: "Destination Wedding",
           label: "European celebrations",
           description:
-            "Wedding planning across Germany and Europe, aligned with travel, guest experience, local logistics and cultural expectations."
+            "Wedding planning across Germany and Europe, including castle, manor and hotel settings, travel flow, guest experience, local logistics and cultural expectations."
         },
         {
-          title: "Castle Wedding",
-          label: "Historic venues",
-          description:
-            "Thoughtful sourcing, communication and styling for castle venues with a sense of history, atmosphere and modern elegance."
-        },
-        {
-          title: "Wedding Day Coordination",
-          label: "Calm on-site leadership",
-          description:
-            "Professional day-of coordination for couples who have planned the essentials and want calm leadership on the wedding day."
-        },
-        {
-          title: "Vendor & Venue Communication",
-          label: "Clear coordination",
-          description:
-            "Clear communication with venues, caterers, florists, photo, video, music and other partners in German, Chinese and English."
-        },
-        {
-          title: "Bilingual Wedding Service",
+          title: "Wedding Day & Multilingual Coordination",
           label: "German, Chinese and English",
           description:
-            "Multilingual care for couples, families and guests, so cultural details are understood and gracefully delivered."
+            "Calm day-of leadership for couples who have already planned the essentials, with clear coordination between venues, catering, florals, photo, video, music, families and guests."
         }
       ]
     },
