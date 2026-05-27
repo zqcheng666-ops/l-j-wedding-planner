@@ -168,22 +168,22 @@ export const dictionaries = {
         "Dieser Bereich zeigt unsere bevorzugte ästhetische Richtung: zurückhaltend, elegant, natürlich und geprägt von europäischen Orten.",
       items: [
         {
-          src: "/images/castle-ceremony.jpg",
+          src: "/images/inspiration-castle-natural.png",
           alt: "Schlosszeremonie mit goldenen Details",
           title: "Schlosshochzeit",
-          caption: "Eine klassische europäische Kulisse, modern und warm inszeniert."
+          caption: "Natürliche Grüntöne und architektonische Tiefe statt klassischer Blütenfülle."
         },
         {
-          src: "/images/church-ceremony.png",
+          src: "/images/inspiration-church-minimal.png",
           alt: "Feierliche europäische Zeremonie mit warmem Licht",
           title: "Kirchliche Trauung",
-          caption: "Ruhige Zeremonien mit Würde, Nähe und einem klaren Gefühl für den Ort."
+          caption: "Wenige Elemente, viel Raum: eine stille Interpretation von weniger ist mehr."
         },
         {
-          src: "/images/bavaria-lakeside-wedding.png",
+          src: "/images/inspiration-lakeside-private-vows.png",
           alt: "Freie Trauung am europäischen See",
           title: "Gelübde am See",
-          caption: "Intime Destination Weddings mit viel Raum für Nähe."
+          caption: "Ein privater Moment nur für das Paar, ruhig und nah am Wasser."
         },
         {
           src: "/images/manor-dinner.jpg",
@@ -601,22 +601,22 @@ export const dictionaries = {
         "呈现我们喜欢并擅长打造的婚礼氛围：克制、优雅、自然、有欧洲场地感。",
       items: [
         {
-          src: "/images/castle-ceremony.jpg",
+          src: "/images/inspiration-castle-natural.png",
           alt: "带有金色细节的城堡婚礼仪式",
           title: "城堡婚礼",
-          caption: "经典欧洲场景，以现代、温暖的方式呈现。"
+          caption: "用自然绿植与建筑层次替代繁复花量，呈现更松弛的城堡仪式。"
         },
         {
-          src: "/images/church-ceremony.png",
+          src: "/images/inspiration-church-minimal.png",
           alt: "温暖光线中的欧洲仪式空间",
           title: "教堂婚礼",
-          caption: "庄重但不沉重的仪式感，保留亲密与温度。"
+          caption: "少即是多，用留白、单枝花材与烛光体现安静的仪式美。"
         },
         {
-          src: "/images/bavaria-lakeside-wedding.png",
+          src: "/images/inspiration-lakeside-private-vows.png",
           alt: "欧洲湖畔婚礼誓言",
           title: "湖畔誓言",
-          caption: "亲密的小型目的地婚礼，留出更多真实情绪。"
+          caption: "没有宾客喧闹，只有新人彼此交换誓言的私密时刻。"
         },
         {
           src: "/images/manor-dinner.jpg",
@@ -1034,22 +1034,22 @@ export const dictionaries = {
         "A glimpse into the aesthetic direction we prefer and shape: restrained, elegant, natural and rooted in a sense of European place.",
       items: [
         {
-          src: "/images/castle-ceremony.jpg",
+          src: "/images/inspiration-castle-natural.png",
           alt: "Castle wedding ceremony with golden details",
           title: "Castle Wedding",
-          caption: "A classic European setting, styled with modern warmth."
+          caption: "Natural greenery and architectural depth instead of abundant classic florals."
         },
         {
-          src: "/images/church-ceremony.png",
+          src: "/images/inspiration-church-minimal.png",
           alt: "European ceremony space in warm light",
           title: "Church Ceremony",
-          caption: "A sense of ceremony that feels dignified, intimate and warm."
+          caption: "Less is more: negative space, single stems and candlelight with quiet restraint."
         },
         {
-          src: "/images/bavaria-lakeside-wedding.png",
+          src: "/images/inspiration-lakeside-private-vows.png",
           alt: "Lakeside wedding vows in Europe",
           title: "Lakeside Vows",
-          caption: "Intimate destination weddings with space for genuine emotion."
+          caption: "A private vow moment for the couple alone, quiet and close to the water."
         },
         {
           src: "/images/manor-dinner.jpg",
