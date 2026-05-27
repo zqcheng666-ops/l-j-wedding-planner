@@ -168,16 +168,16 @@ export const dictionaries = {
         "Dieser Bereich zeigt unsere bevorzugte ästhetische Richtung: zurückhaltend, elegant, natürlich und geprägt von europäischen Orten.",
       items: [
         {
-          src: "/images/inspiration-castle-natural.png",
+          src: "/images/castle-ceremony.jpg",
           alt: "Schlosszeremonie mit goldenen Details",
           title: "Schlosshochzeit",
-          caption: "Natürliche Grüntöne und architektonische Tiefe statt klassischer Blütenfülle."
+          caption: "Eine klassische Schlosskulisse mit weichen Blüten, klarer Achse und warmer Eleganz."
         },
         {
-          src: "/images/inspiration-church-minimal.png",
+          src: "/images/church-ceremony.png",
           alt: "Feierliche europäische Zeremonie mit warmem Licht",
           title: "Kirchliche Trauung",
-          caption: "Wenige Elemente, viel Raum: eine stille Interpretation von weniger ist mehr."
+          caption: "Klassische Zeremonie mit feiner Floristik, Kerzenlicht und festlicher Tiefe."
         },
         {
           src: "/images/inspiration-lakeside-private-vows.png",
@@ -601,16 +601,16 @@ export const dictionaries = {
         "呈现我们喜欢并擅长打造的婚礼氛围：克制、优雅、自然、有欧洲场地感。",
       items: [
         {
-          src: "/images/inspiration-castle-natural.png",
+          src: "/images/castle-ceremony.jpg",
           alt: "带有金色细节的城堡婚礼仪式",
           title: "城堡婚礼",
-          caption: "用自然绿植与建筑层次替代繁复花量，呈现更松弛的城堡仪式。"
+          caption: "经典城堡场景，柔和花艺、清晰仪式轴线与温暖光感共同呈现。"
         },
         {
-          src: "/images/inspiration-church-minimal.png",
+          src: "/images/church-ceremony.png",
           alt: "温暖光线中的欧洲仪式空间",
           title: "教堂婚礼",
-          caption: "少即是多，用留白、单枝花材与烛光体现安静的仪式美。"
+          caption: "经典教堂婚礼氛围，配以相对简约的花艺、烛光与仪式纵深。"
         },
         {
           src: "/images/inspiration-lakeside-private-vows.png",
@@ -1034,16 +1034,16 @@ export const dictionaries = {
         "A glimpse into the aesthetic direction we prefer and shape: restrained, elegant, natural and rooted in a sense of European place.",
       items: [
         {
-          src: "/images/inspiration-castle-natural.png",
+          src: "/images/castle-ceremony.jpg",
           alt: "Castle wedding ceremony with golden details",
           title: "Castle Wedding",
-          caption: "Natural greenery and architectural depth instead of abundant classic florals."
+          caption: "A classic castle setting with soft florals, a clear aisle and warm elegance."
         },
         {
-          src: "/images/inspiration-church-minimal.png",
+          src: "/images/church-ceremony.png",
           alt: "European ceremony space in warm light",
           title: "Church Ceremony",
-          caption: "Less is more: negative space, single stems and candlelight with quiet restraint."
+          caption: "A classic church ceremony with restrained florals, candlelight and ceremonial depth."
         },
         {
           src: "/images/inspiration-lakeside-private-vows.png",
