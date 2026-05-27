@@ -218,7 +218,7 @@ export const dictionaries = {
       },
       items: [
         {
-          src: "/images/castle-ceremony.jpg",
+          src: "/images/case-private-castle-stuttgart.png",
           alt: "Schloss Hochzeit in Deutschland",
           title: "Private Schlosshochzeit bei Stuttgart",
           location: "Region Stuttgart, Deutschland",
@@ -228,7 +228,7 @@ export const dictionaries = {
           highlight: "Zeremonie im Schloss, Dinner-Flow, Gästeempfang und deutsch-chinesisch-englische Kommunikation."
         },
         {
-          src: "/images/bavaria-lakeside-wedding.png",
+          src: "/images/case-lakeside-bavaria.png",
           alt: "Kleine europäische Reisehochzeit am See",
           title: "Intime Hochzeit am See in Bayern",
           location: "Bayern, Deutschland",
@@ -238,7 +238,7 @@ export const dictionaries = {
           highlight: "Intime Zeremonie, Gästereise, Fotomomente und ruhige Tagesdramaturgie."
         },
         {
-          src: "/images/manor-dinner.jpg",
+          src: "/images/case-frankfurt-dinner.png",
           alt: "Europäisches Hochzeitsdinner in einem Gutshaus",
           title: "Deutsch-Chinesische Hochzeit in Frankfurt",
           location: "Frankfurt am Main",
@@ -651,7 +651,7 @@ export const dictionaries = {
       },
       items: [
         {
-          src: "/images/castle-ceremony.jpg",
+          src: "/images/case-private-castle-stuttgart.png",
           alt: "德国城堡婚礼案例",
           title: "Private Castle Wedding near Stuttgart",
           location: "斯图加特周边私人城堡场地",
@@ -661,7 +661,7 @@ export const dictionaries = {
           highlight: "城堡仪式、晚宴动线、宾客接待、中德英多语言沟通。"
         },
         {
-          src: "/images/bavaria-lakeside-wedding.png",
+          src: "/images/case-lakeside-bavaria.png",
           alt: "欧洲湖畔目的地婚礼案例",
           title: "Intimate Lakeside Wedding in Bavaria",
           location: "德国巴伐利亚湖区",
@@ -671,7 +671,7 @@ export const dictionaries = {
           highlight: "亲密仪式、宾客旅行体验、旅拍时间线与自然情绪设计。"
         },
         {
-          src: "/images/manor-dinner.jpg",
+          src: "/images/case-frankfurt-dinner.png",
           alt: "欧式庄园晚宴案例",
           title: "Chinese-German Wedding in Frankfurt",
           location: "德国法兰克福",
@@ -1084,7 +1084,7 @@ export const dictionaries = {
       },
       items: [
         {
-          src: "/images/castle-ceremony.jpg",
+          src: "/images/case-private-castle-stuttgart.png",
           alt: "German castle wedding case",
           title: "Private Castle Wedding near Stuttgart",
           location: "Stuttgart region, Germany",
@@ -1094,7 +1094,7 @@ export const dictionaries = {
           highlight: "Castle ceremony, dinner flow, guest hosting and German-Chinese-English communication."
         },
         {
-          src: "/images/bavaria-lakeside-wedding.png",
+          src: "/images/case-lakeside-bavaria.png",
           alt: "European lakeside destination wedding case",
           title: "Intimate Lakeside Wedding in Bavaria",
           location: "Bavaria, Germany",
@@ -1104,7 +1104,7 @@ export const dictionaries = {
           highlight: "Intimate ceremony, guest travel experience, photo timeline and natural emotional flow."
         },
         {
-          src: "/images/manor-dinner.jpg",
+          src: "/images/case-frankfurt-dinner.png",
           alt: "European manor dinner wedding case",
           title: "Chinese-German Wedding in Frankfurt",
           location: "Frankfurt am Main, Germany",
